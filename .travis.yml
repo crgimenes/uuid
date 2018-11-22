@@ -19,3 +19,6 @@ install: true
 
 script:
   - go test --race -coverprofile c.out ./...
+
+after_success:
+  test -n "$TRAVIS_TAG" && curl -s https://raw.githubusercontent.com/goreleaser/get/master/latest | bash
