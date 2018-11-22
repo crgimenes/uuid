@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/google/uuid"
-
 	"github.com/crgimenes/goconfig"
+	"github.com/google/uuid"
 )
 
 func main() {
