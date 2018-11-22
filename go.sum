@@ -1,0 +1,4 @@
+github.com/crgimenes/goconfig v1.1.0 h1:1aLBkJYLJ4ZxtvaP2OJ6lXw+3Tr9tcEVDEmSbTDM7Hw=
+github.com/crgimenes/goconfig v1.1.0/go.mod h1:NLkiEPjGZF4p1jzt3S7stOW7z/MJqvCRwJuDmC7b8fw=
+github.com/google/uuid v1.1.0 h1:Jf4mxPC/ziBnoPIdpQdPJ9OeiomAUHLvxmPRSPH9m4s=
+github.com/google/uuid v1.1.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
