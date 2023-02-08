@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"crg.eti.br/go/config"
 	"github.com/google/uuid"
-	"github.com/gosidekick/goconfig"
 )
 
 func main() {
@@ -20,7 +20,7 @@ func main() {
 	}
 
 	cfg := configFlags{}
-	err := goconfig.Parse(&cfg)
+	err := config.Parse(&cfg)
 	if err != nil {
 		fmt.Println(err)
 		return
