@@ -1,8 +1,8 @@
 module github.com/gosidekick/uuid
 
-go 1.21
+go 1.22
 
 require (
-	crg.eti.br/go/config v1.4.13
-	github.com/google/uuid v1.3.0
+	crg.eti.br/go/config v1.5.0
+	github.com/google/uuid v1.6.0
 )
